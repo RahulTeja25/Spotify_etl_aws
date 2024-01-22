@@ -15,14 +15,17 @@ Further, integrated the joined table with the track dataset to form a comprehens
 Performed data cleaning during the ETL process, eliminating redundant or unnecessary fields.
 Applied deduplication techniques to ensure data integrity and consistency.
 
-4) Destination Data Warehouse in S3 Bucket:
+![image](https://github.com/RahulTeja25/Spotify_etl_aws/assets/115322030/6bc49761-9fe5-4782-8f6f-132bcb855d26)
+
+
+5) Destination Data Warehouse in S3 Bucket:
 Transferred the processed and refined dataset to a destination S3 bucket designated as the data warehouse.
 
-5) Database Creation with AWS Glue Crawler:
+6) Database Creation with AWS Glue Crawler:
 Leveraged AWS Glue Crawler to recognize the structure of the dataset and automatically create a database.
 The database was instrumental in organizing and categorizing the data for efficient querying.
 
-6) Querying with Amazon Athena:
+7) Querying with Amazon Athena:
 Connected the database to Amazon Athena, facilitating SQL-based querying of the dataset.
 Executed queries to extract specific rows of interest, enriching the dataset with relevant information.
 
